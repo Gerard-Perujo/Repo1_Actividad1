@@ -1,6 +1,10 @@
 package main;
 
+
 import Noelia.Noelia;
+
+import MariaIsabel.MariaIsabel;
+
 import gerard.Gerard;
 
 public class Main {
@@ -18,11 +22,19 @@ public class Main {
 		
 		System.out.println("hola soy " + ger.llamarNombre());
 		
+
 		//Se crea el objeto 
 		Noelia noe = new Noelia ("Noelia"); 
 		
 		//Se realiza SYSO llamando al método
 		System.out.println("Hola soy" + noe.llamarNombre());
+
+		//creo el objeto MariaIsabel y llamo al metodo en el syso
+		
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel");
+		System.out.println("Hola soy " + maria.llamarNombre());
+
+
 	}
 
 }
