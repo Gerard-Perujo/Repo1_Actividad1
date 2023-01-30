@@ -1,5 +1,6 @@
 package main;
 
+import MariaIsabel.MariaIsabel;
 import gerard.Gerard;
 
 public class Main {
@@ -16,6 +17,11 @@ public class Main {
 		//utilizo el metodo llamar para hacer el syso//
 		
 		System.out.println("hola soy " + ger.llamarNombre());
+		
+		//creo el objeto Maria y llamo al metodo en el syso
+		
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel");
+		System.out.println("Hola soy " + maria.llamarNombre());
 
 	}
 
