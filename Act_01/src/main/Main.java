@@ -16,7 +16,7 @@ public class Main {
 		
 		//creo el objeto Gerard//
 		
-		Gerard ger = new Gerard("Gerard");
+		Gerard ger = new Gerard("Gerard", "Snowboard", "Senderismo", "Automobilismo");
 		
 		//utilizo el metodo llamar para hacer el syso//
 		
@@ -33,6 +33,11 @@ public class Main {
 		
 		MariaIsabel maria = new MariaIsabel ("Maria Isabel");
 		System.out.println("Hola soy " + maria.llamarNombre());
+		
+		
+		//llamo el metodo hobies//
+		
+		System.out.println("Los hobbies de Gerard son : " + ger.tiposHobies());
 
 
 	}
