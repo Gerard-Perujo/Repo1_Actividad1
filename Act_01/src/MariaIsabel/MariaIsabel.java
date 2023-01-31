@@ -2,25 +2,26 @@ package MariaIsabel;
 
 public class MariaIsabel {
 	
-	private String nombre, hobby1, hobby2, hobby3, comida1, comida2, comida3;
+	private String nombre, hobby1, hobby2, hobby3, com1, com2, com3;
 	//Constructores
-	public MariaIsabel(String nombre, String hobby1, String hobby2, String hobby3, String comida1, String comida2,
-			String comida3) {
+
+	public MariaIsabel(String nombre, String hobby1, String hobby2, String hobby3, String com1, String com2,
+			String com3) {
 		super();
 		this.nombre = nombre;
 		this.hobby1 = hobby1;
 		this.hobby2 = hobby2;
 		this.hobby3 = hobby3;
-		this.comida1 = comida1;
-		this.comida2 = comida2;
-		this.comida3 = comida3;
+		this.com1 = com1;
+		this.com2 = com2;
+		this.com3 = com3;
 	}
-	
 	public MariaIsabel() {
 		super();
-		
-	//Getters and setters
 	}
+	
+	//Getters and setters
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -46,30 +47,34 @@ public class MariaIsabel {
 		this.hobby3 = hobby3;
 	}
 	
-	public String getComida1() {
-		return comida1;
+	public String getCom1() {
+		return com1;
 	}
-	public void setComida1(String comida1) {
-		this.comida1 = comida1;
+	public void setCom1(String com1) {
+		this.com1 = com1;
 	}
-	public String getComida2() {
-		return comida2;
+	public String getCom2() {
+		return com2;
 	}
-	public void setComida2(String comida2) {
-		this.comida2 = comida2;
+	public void setCom2(String com2) {
+		this.com2 = com2;
 	}
-	public String getComida3() {
-		return comida3;
+	public String getCom3() {
+		return com3;
 	}
-	public void setComida3(String comida3) {
-		this.comida3 = comida3;
+	public void setCom3(String com3) {
+		this.com3 = com3;
 	}
+	
+	
 	//Metodo toString 
+	
 	@Override
 	public String toString() {
 		return "MariaIsabel [nombre=" + nombre + ", hobby1=" + hobby1 + ", hobby2=" + hobby2 + ", hobby3=" + hobby3
-				+ ", comida1=" + comida1 + ", comida2=" + comida2 + ", comida3=" + comida3 + "]";
+				+ ", com1=" + com1 + ", com2=" + com2 + ", com3=" + com3 + "]";
 	}
+	
 	
 	//Metodos propios
 		public String llamarNombre() {
@@ -81,7 +86,7 @@ public class MariaIsabel {
 		}
 		
 		public String comidasFavoritas() {
-			return comida1 + ", " + comida2 + " y " + comida3;
+			return com1 + ", " + com2 + " y " + com3;
 		}
 
 }
