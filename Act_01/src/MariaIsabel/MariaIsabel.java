@@ -16,15 +16,12 @@ public class MariaIsabel {
 		this.comida2 = comida2;
 		this.comida3 = comida3;
 	}
-	
 
 	public MariaIsabel() {
 		super();
 	}
-		
-	//Getters and setters
 	
-
+	//Getters and setters
 
 	public String getNombre() {
 		return nombre;
@@ -32,7 +29,6 @@ public class MariaIsabel {
 	public String getComida1() {
 		return comida1;
 	}
-
 
 	public void setComida1(String comida1) {
 		this.comida1 = comida1;
@@ -80,19 +76,22 @@ public class MariaIsabel {
 	public void setHobby3(String hobby3) {
 		this.hobby3 = hobby3;
 	}
-	
-
-	//Metodo toString 
 
 	
+	//Metodo toString
 	@Override
 	public String toString() {
 		return "MariaIsabel [nombre=" + nombre + ", hobby1=" + hobby1 + ", hobby2=" + hobby2 + ", hobby3=" + hobby3
 				+ ", comida1=" + comida1 + ", comida2=" + comida2 + ", comida3=" + comida3 + "]";
 	}
 	
+
+	
 	
 	//Metodos propios
+
+		//Metodos propios
+
 		public String llamarNombre() {
 			return nombre;
 		}
