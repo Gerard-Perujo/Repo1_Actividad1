@@ -84,15 +84,11 @@ public class Noelia {
 	public String tiposHobies() {
 		return hobbi1 + hobbi2 + hobbi3;
 }
-}
+
 
 	
 	
-	
-public String llamarNombre() {
-	return nombre; 
-	
-}
+
 	
 	
 }

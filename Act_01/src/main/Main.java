@@ -31,13 +31,14 @@ public class Main {
 
 		//creo el objeto MariaIsabel y llamo al metodo en el syso
 		
-		MariaIsabel maria = new MariaIsabel ("Maria Isabel");
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones");
 		System.out.println("Hola soy " + maria.llamarNombre());
 		
 		
 		//llamo el metodo hobies//
 		
 		System.out.println("Los hobbies de Gerard son : " + ger.tiposHobies());
+		System.out.println("Los hobbies de Maria Isabel son : " + maria.misHobbys());
 
 
 	}
