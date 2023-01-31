@@ -2,7 +2,12 @@ package gerard;
 
 public class Gerard {
 		
+
 		private String nombre, hobbi1, hobbi2, hobbi3, com1, com2, com3;
+		
+
+
+
 		
 
 
@@ -77,20 +82,21 @@ public class Gerard {
 
 		
 	
+
 public String getCom1() {
 			return com1;
-		}
 
+}
 
 
 		public void setCom1(String com1) {
 			this.com1 = com1;
+
 		}
-
-
 
 		public String getCom2() {
 			return com2;
+
 		}
 
 
@@ -100,19 +106,15 @@ public String getCom1() {
 		}
 
 
-
 		public String getCom3() {
 			return com3;
+
 		}
-
-
 
 		public void setCom3(String com3) {
 			this.com3 = com3;
+
 		}
-
-
-
 
 
 
@@ -121,9 +123,8 @@ public String getCom1() {
 		public String toString() {
 			return "Gerard [nombre=" + nombre + ", hobbi1=" + hobbi1 + ", hobbi2=" + hobbi2 + ", hobbi3=" + hobbi3
 					+ ", com1=" + com1 + ", com2=" + com2 + ", com3=" + com3 + "]";
-		}
 
-
+}
 
 public String llamarNombre() {
 	return nombre;
@@ -139,4 +140,5 @@ public String tiposHobies() {
 public String comidaQueMeGusta() {
 	return com1 + com2 + com3;
 }
+
 }
