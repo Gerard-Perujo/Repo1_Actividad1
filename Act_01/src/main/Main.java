@@ -33,7 +33,7 @@ public class Main {
 
 		//creo el objeto MariaIsabel y llamo al metodo en el syso
 		
-		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones", "canelones", "pudings", "Bizcocho");
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones", "pasta", "helados", "san jacobos");
 		System.out.println("Hola soy " + maria.llamarNombre());
 		
 		
