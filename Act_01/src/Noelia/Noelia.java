@@ -81,13 +81,13 @@ public class Noelia {
 		return hobbi1 + hobbi2 + hobbi3;
 }
 
+	public String llamarNombre() {
+		return nombre; 
+	}
 	
 	
 	
-public String llamarNombre() {
-	return nombre; 
-	
-}
+
 	
 	
 }
