@@ -19,7 +19,7 @@ public class Main {
 		System.out.println("hola soy " + ger.llamarNombre());
 		
 		//Se crea el objeto 
-		Noelia noe = new Noelia ("Noelia"); 
+		Noelia noe = new Noelia ("Noelia", "kick boxing", "natación", "esquiar"); 
 		
 		//Se realiza SYSO llamando al método
 		System.out.println("Hola soy" + noe.llamarNombre());
