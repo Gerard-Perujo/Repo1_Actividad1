@@ -24,7 +24,7 @@ public class Main {
 		
 
 		//Se crea el objeto 
-		Noelia noe = new Noelia ("Noelia"); 
+		Noelia noe = new Noelia ("Noelia", "natación", "kick boxing", "esquiar"); 
 		
 		//Se realiza SYSO llamando al método
 		System.out.println("Hola soy" + noe.llamarNombre());

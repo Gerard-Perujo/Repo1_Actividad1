@@ -76,14 +76,9 @@ public class Noelia {
 
 
 
-	public String llamarNombre() {
-		return nombre;
-	}
-
 
 	public String tiposHobies() {
 		return hobbi1 + hobbi2 + hobbi3;
-}
 }
 
 	
