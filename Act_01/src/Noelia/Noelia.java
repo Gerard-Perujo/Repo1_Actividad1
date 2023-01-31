@@ -2,18 +2,54 @@ package Noelia;
 
 public class Noelia {
 	
-	private String nombre, hobbi1, hobbi2, hobbi3, com1, com2, com3; 
+
+
+	private String nombre, hobbi1, hobbi2, hobbi3, comida1, comida2, comida3; 
+
 	
+
 	
-	public Noelia(String nombre, String hobbi1, String hobbi2, String hobbi3, String com1, String com2, String com3) {
+	public Noelia(String nombre, String hobbi1, String hobbi2, String hobbi3, String comida1, String comida2,
+			String comida3) {
 		super();
 		this.nombre = nombre;
 		this.hobbi1 = hobbi1;
 		this.hobbi2 = hobbi2;
 		this.hobbi3 = hobbi3;
-		this.com1 = com1;
-		this.com2 = com2;
-		this.com3 = com3;
+		this.comida1 = comida1;
+		this.comida2 = comida2;
+		this.comida3 = comida3;
+	}
+
+
+
+	public String getComida1() {
+		return comida1;
+	}
+
+
+	public void setComida1(String comida1) {
+		this.comida1 = comida1;
+	}
+
+
+	public String getComida2() {
+		return comida2;
+	}
+
+
+	public void setComida2(String comida2) {
+		this.comida2 = comida2;
+	}
+
+
+	public String getComida3() {
+		return comida3;
+	}
+
+
+	public void setComida3(String comida3) {
+		this.comida3 = comida3;
 	}
 
 
@@ -53,39 +89,7 @@ public class Noelia {
 
 
 
-	public String getCom1() {
-		return com1;
-	}
-
-
-
-	public void setCom1(String com1) {
-		this.com1 = com1;
-	}
-
-
-
-	public String getCom2() {
-		return com2;
-	}
-
-
-
-	public void setCom2(String com2) {
-		this.com2 = com2;
-	}
-
-
-
-	public String getCom3() {
-		return com3;
-	}
-
-
-
-	public void setCom3(String com3) {
-		this.com3 = com3;
-	}
+	
 
 
 
@@ -106,18 +110,11 @@ public class Noelia {
 	}
 
 
-
-
 	
-
-
-
-
-
 	@Override
 	public String toString() {
 		return "Noelia [nombre=" + nombre + ", hobbi1=" + hobbi1 + ", hobbi2=" + hobbi2 + ", hobbi3=" + hobbi3
-				+ ", com1=" + com1 + ", com2=" + com2 + ", com3=" + com3 + "]";
+				+ ", comida1=" + comida1 + ", comida2=" + comida2 + ", comida3=" + comida3 + "]";
 	}
 
 
@@ -130,10 +127,10 @@ public class Noelia {
 		return nombre; 
 	}
 	
-	
-	public String queRico() {
-		return com1 + com2 + com3;
+	public String comidasFavoritas( ) {
+		return comida1 + comida2 + comida3; 
 	}
+
 
 	
 	
