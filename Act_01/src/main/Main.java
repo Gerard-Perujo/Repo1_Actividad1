@@ -41,6 +41,7 @@ public class Main {
 		
 		System.out.println("Los hobbies de Gerard son : " + ger.tiposHobies());
 		System.out.println("Los hobbies de Maria Isabel son : " + maria.misHobbys());
+		System.out.println("los hobbies de Noelia son: " + noe.tiposHobies());
 
 
 	}
