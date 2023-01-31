@@ -16,7 +16,7 @@ public class Main {
 		
 		//creo el objeto Gerard//
 		
-		Gerard ger = new Gerard("Gerard", "Snowboard", "Senderismo", "Automobilismo");
+		Gerard ger = new Gerard("Gerard", "Snowboard", "Senderismo", "Automobilismo", "patatas fritas", "turrones", "polvorones");
 		
 		//utilizo el metodo llamar para hacer el syso//
 		
@@ -45,6 +45,7 @@ public class Main {
 		
 		// Llamo al metodo de comidas favoritas
 		System.out.println("Las comidas favoritas de Maria Isabel son : " + maria.comidasFavoritas());
+		System.out.println("Las comidas favoritas de Maria Isabel son : " + ger.comidaQueMeGusta());
 
 
 	}
