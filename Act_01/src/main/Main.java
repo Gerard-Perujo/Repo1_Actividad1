@@ -33,7 +33,7 @@ public class Main {
 
 		//creo el objeto MariaIsabel y llamo al metodo en el syso
 		
-		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones");
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones", "pasta", "helados", "san jacobos");
 		System.out.println("Hola soy " + maria.llamarNombre());
 		
 		
@@ -42,6 +42,9 @@ public class Main {
 		System.out.println("Los hobbies de Gerard son : " + ger.tiposHobies());
 		System.out.println("Los hobbies de Maria Isabel son : " + maria.misHobbys());
 		System.out.println("los hobbies de Noelia son: " + noe.tiposHobies());
+		
+		// Llamo al metodo de comidas favoritas
+		System.out.println("Las comidas favoritas de Maria Isabel son : " + maria.comidasFavoritas());
 
 
 	}
