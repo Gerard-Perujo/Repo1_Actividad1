@@ -24,20 +24,27 @@ public class Main {
 		
 
 		//Se crea el objeto 
-		Noelia noe = new Noelia ("Noelia"); 
+
+		Noelia noe = new Noelia ("Noelia", "natación", "kick boxing", "esquiar"); 
+
 		
 		//Se realiza SYSO llamando al método
 		System.out.println("Hola soy" + noe.llamarNombre());
 
 		//creo el objeto MariaIsabel y llamo al metodo en el syso
 		
-		MariaIsabel maria = new MariaIsabel ("Maria Isabel");
+		MariaIsabel maria = new MariaIsabel ("Maria Isabel", "buceo", "video", "aviones", "canelones", "pudings", "Bizcocho");
 		System.out.println("Hola soy " + maria.llamarNombre());
 		
 		
 		//llamo el metodo hobies//
 		
 		System.out.println("Los hobbies de Gerard son : " + ger.tiposHobies());
+		System.out.println("Los hobbies de Maria Isabel son : " + maria.misHobbys());
+		System.out.println("los hobbies de Noelia son: " + noe.tiposHobies());
+		
+		// Llamo al metodo de comidas favoritas
+		System.out.println("Las comidas favoritas de Maria Isabel son : " + maria.comidasFavoritas());
 
 
 	}
