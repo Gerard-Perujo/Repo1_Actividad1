@@ -2,20 +2,26 @@ package MariaIsabel;
 
 public class MariaIsabel {
 	
-	private String nombre, hobby1, hobby2, hobby3, comida1, comida2, comida3;
+	private String nombre, hobby1, hobby2, hobby3, com1, com2, com3;
 	//Constructores
 
+<<<<<<< HEAD
 	public MariaIsabel(String nombre, String hobby1, String hobby2, String hobby3, String comida1, String comida2,
 			String comida3) {
+=======
+	public MariaIsabel(String nombre, String hobby1, String hobby2, String hobby3, String com1, String com2,
+			String com3) {
+>>>>>>> develop
 		super();
 		this.nombre = nombre;
 		this.hobby1 = hobby1;
 		this.hobby2 = hobby2;
 		this.hobby3 = hobby3;
-		this.comida1 = comida1;
-		this.comida2 = comida2;
-		this.comida3 = comida3;
+		this.com1 = com1;
+		this.com2 = com2;
+		this.com3 = com3;
 	}
+<<<<<<< HEAD
 	
 
 	public MariaIsabel() {
@@ -26,6 +32,14 @@ public class MariaIsabel {
 	
 
 
+=======
+	public MariaIsabel() {
+		super();
+	}
+	
+	//Getters and setters
+	
+>>>>>>> develop
 	public String getNombre() {
 		return nombre;
 	}
@@ -81,14 +95,38 @@ public class MariaIsabel {
 		this.hobby3 = hobby3;
 	}
 	
+<<<<<<< HEAD
 
 	//Metodo toString 
 
+=======
+	public String getCom1() {
+		return com1;
+	}
+	public void setCom1(String com1) {
+		this.com1 = com1;
+	}
+	public String getCom2() {
+		return com2;
+	}
+	public void setCom2(String com2) {
+		this.com2 = com2;
+	}
+	public String getCom3() {
+		return com3;
+	}
+	public void setCom3(String com3) {
+		this.com3 = com3;
+	}
+	
+	
+	//Metodo toString 
+>>>>>>> develop
 	
 	@Override
 	public String toString() {
 		return "MariaIsabel [nombre=" + nombre + ", hobby1=" + hobby1 + ", hobby2=" + hobby2 + ", hobby3=" + hobby3
-				+ ", comida1=" + comida1 + ", comida2=" + comida2 + ", comida3=" + comida3 + "]";
+				+ ", com1=" + com1 + ", com2=" + com2 + ", com3=" + com3 + "]";
 	}
 	
 	
@@ -103,7 +141,7 @@ public class MariaIsabel {
 		}
 		
 		public String comidasFavoritas() {
-			return comida1 + ", " + comida2 + " y " + comida3;
+			return com1 + ", " + com2 + " y " + com3;
 		}
 
 }
