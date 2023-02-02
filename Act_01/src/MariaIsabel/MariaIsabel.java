@@ -6,17 +6,16 @@ public class MariaIsabel {
 	
 	//Constructores, uno con todos los parametros y otro sin nada
 	public MariaIsabel(String nombre, String hobby1, String hobby2, String hobby3, String comida1, String comida2,
-		String comida3) {
-	super();
-	this.nombre = nombre;
-	this.hobby1 = hobby1;
-	this.hobby2 = hobby2;
-	this.hobby3 = hobby3;
-	this.comida1 = comida1;
-	this.comida2 = comida2;
-	this.comida3 = comida3;
-}
-
+			String comida3) {
+		super();
+		this.nombre = nombre;
+		this.hobby1 = hobby1;
+		this.hobby2 = hobby2;
+		this.hobby3 = hobby3;
+		this.comida1 = comida1;
+		this.comida2 = comida2;
+		this.comida3 = comida3;
+	}
 	public MariaIsabel() {
 		super();
 	}
@@ -78,10 +77,10 @@ public class MariaIsabel {
 		this.comida3 = comida3;
 	}
 
-	// Redefinir metodo de Object
 	@Override
 	public String toString() {
 		return "MariaIsabel [nombre=" + nombre + ", hobby1=" + hobby1 + ", hobby2=" + hobby2 + ", hobby3=" + hobby3
+
 				+ ", comida1=" + comida1 + ", comida2=" + comida2 + ", comida3=" + comida3 + "]";
 	}
 
@@ -97,4 +96,6 @@ public class MariaIsabel {
 	}
 
 
+
 }
+
